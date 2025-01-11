@@ -5,6 +5,10 @@ import Services from "./Components/Services";
 import Testimonials from "./Components/Testimonials";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Aboutus from "./Components/Aboutus";
+import { Team } from "./Components/Team";
+import Footer from "./Components/Footer";
+import Gallery from "./Components/Gallery";
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +25,10 @@ const App = () => {
         <Home />
         <Services />
         <Testimonials />
+        <Aboutus />
+        <Gallery />
+        <Team />
+        <Footer />
       </div>
     </Fragment>
   );

@@ -4,7 +4,7 @@ export const Home = () => {
       <div
         className="bg-green-900"
         style={{
-          backgroundImage: "linear-gradient(rgba(2,0,36,0.7008053221288515), rgba(0,0,0,0.406687675070028)), url('../public/bg.avif')",
+          backgroundImage: "linear-gradient(rgba(2,0,36,0.7008053221288515), rgba(0,0,0,0.406687675070028)), url('/bg.avif')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -52,21 +52,7 @@ export const Home = () => {
               enhance your brand
             </p>
           </div>
-          <div className="flex items-center sm:justify-center">
-            <button
-              type="submit"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-green-800 hover:bg-green-600 focus:shadow-outline focus:outline-none"
-            >
-              Get started
-            </button>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold text-white transition-colors duration-200 hover:text-deep-purple-accent-700"
-            >
-              Learn more
-            </a>
-          </div>
+         
         </div>
       </div>
       {/* <div className="relative px-4 sm:px-0">
