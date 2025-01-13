@@ -9,6 +9,7 @@ import Aboutus from "./Components/Aboutus";
 import { Team } from "./Components/Team";
 import Footer from "./Components/Footer";
 import Gallery from "./Components/Gallery";
+import "./App.css"
 
 const App = () => {
   useEffect(() => {
@@ -23,7 +24,6 @@ const App = () => {
       <div className="font-Outfit">
         <Nav />
         <Home />
-        <Services />
         <Testimonials />
         <Aboutus />
         <Gallery />

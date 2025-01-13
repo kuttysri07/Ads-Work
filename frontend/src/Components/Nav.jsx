@@ -4,7 +4,7 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div>
-      <div className="bg-gray-900">
+      <div className="bg-gray-900 fixed top-0 z-50 w-screen">
         <div className="px-4 py-3 mx-auto lg:py-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
           <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
             <ul className="flex items-center hidden space-x-8 lg:flex">

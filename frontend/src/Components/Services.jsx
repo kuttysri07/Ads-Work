@@ -2,7 +2,8 @@ import React from "react";
 import { Brush ,PencilLine } from 'lucide-react';
 const Services = () => {
   return (
-    <section className="bg-white ">
+    <div>
+<section className="bg-white w-screen">
       <h1 className="text-center lg:text-4xl md:text-2xl text-3xl">
         Our Services
       </h1>
@@ -135,6 +136,8 @@ const Services = () => {
         </div>
       </div>
     </section>
+    </div>
+    
   );
 };
 

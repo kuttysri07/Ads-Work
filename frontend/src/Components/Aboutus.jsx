@@ -2,7 +2,7 @@ import React from "react";
 
 const Aboutus = () => {
   return (
-    <div className="  py-10 px-5 leading-4 rounded mx-2 sm:mx-5 lg:mx-10 mt-10">
+    <div className="  py-10 px-5  leading-4 rounded mx-2 sm:mx-5 lg:mx-10 mt-20">
          <h1 className="text-4xl font-bold text-green-900 mb-6 text-center ">
          <span className="relative inline-block">
               <svg

@@ -3,12 +3,6 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
-
       <footer className="bg-white bg-gradient-to-r from-green-950 to-green-700">
         <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
