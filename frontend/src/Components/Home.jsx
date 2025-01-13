@@ -24,7 +24,7 @@ export const Home = () => {
           </div>
 
           {/* Right Section: Text Content */}
-          <div className="w-full absolute md:static lg:static md:w-1/2 text-white flex flex-col justify-center items-center px-4 md:px-10">
+          <div  className="w-full absolute md:static lg:static md:w-1/2 text-white flex flex-col justify-center items-center px-4 md:px-10">
             <p className="text-xs sm:text-sm md:text-lg uppercase tracking-wide text-gray-300 mb-2">
               Brand New
             </p>
@@ -49,7 +49,7 @@ export const Home = () => {
           }}
         >
           {/* Left Section: Image */}
-          <div className="w-full absolute top-10 lg:static md:static md:w-1/2 flex justify-center md:justify-end px-4 md:px-10">
+          <div className="w-full absolute top-16 lg:static md:static md:w-1/2 flex justify-center md:justify-end px-4 md:px-10">
             <img
               src="./girl3.png"
               className="w-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
@@ -58,7 +58,7 @@ export const Home = () => {
           </div>
 
           {/* Right Section: Text Content */}
-          <div className="w-full absolute md:static lg:static md:w-1/2 text-white flex flex-col justify-center items-center px-4 md:px-10">
+          <div  className="w-full absolute md:static lg:static md:w-1/2 text-white flex flex-col justify-center items-center px-4 md:px-10">
             <p className="text-xs sm:text-sm md:text-lg uppercase tracking-wide text-gray-300 mb-2">
               Brand New
             </p>
@@ -83,7 +83,7 @@ export const Home = () => {
           }}
         >
           {/* Left Section: Image */}
-          <div className="w-full absolute top-10 lg:static md:static md:w-1/2 flex justify-center md:justify-end px-4 md:px-10">
+          <div className="w-full absolute top-16 lg:static md:static md:w-1/2 flex justify-center md:justify-end px-4 md:px-10">
             <img
               src="./girl2.png"
               className="w-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
@@ -92,7 +92,7 @@ export const Home = () => {
           </div>
 
           {/* Right Section: Text Content */}
-          <div className="w-full absolute md:static lg:static md:w-1/2 text-white flex flex-col justify-center items-center px-4 md:px-10">
+          <div   className="w-full absolute md:static lg:static md:w-1/2 text-white flex flex-col justify-center items-center px-4 md:px-10">
             <p className="text-xs sm:text-sm md:text-lg uppercase tracking-wide text-gray-300 mb-2">
               Brand New
             </p>
