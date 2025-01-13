@@ -10,6 +10,7 @@ import { Team } from "./Components/Team";
 import Footer from "./Components/Footer";
 import Gallery from "./Components/Gallery";
 import "./App.css"
+import Blog from "./Components/Blog";
 
 const App = () => {
   useEffect(() => {
@@ -27,7 +28,8 @@ const App = () => {
         <Testimonials />
         <Aboutus />
         <Gallery />
-        <Team />
+        {/* <Team /> */}
+        <Blog />
         <Footer />
       </div>
     </Fragment>
